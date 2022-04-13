@@ -1,0 +1,136 @@
+body, html{
+    height: 100%;
+    margin: 0px;
+}
+body{
+    background-color: rgb(91, 146, 91);
+}
+
+.name_heading{
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+    font-style:oblique ;
+}
+
+nav li{
+    display: inline;
+    margin: 20px;
+}
+
+nav ul{
+    background-color:black;
+    margin: 0;
+    list-style-type:none;
+    width:100%;
+    padding: 20px
+}
+
+nav{
+    display: block;
+    color: aliceblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav a{
+    color:aliceblue;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color:rgb(91, 146, 91);
+}
+
+.title-heading{
+    text-indent: 50px;
+    font-size: 35px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+}
+
+#main{
+    width:75%;
+    float:left;
+    height:100%;
+    padding-left: 20px;
+    padding-top: 20px;
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+}
+
+.captions{
+    font-style: italic;
+}
+
+main{
+    overflow: auto;
+}
+
+.article-image{
+    height: 500px;
+    width: 750px;
+    border-radius: 30px;
+}
+
+#side{
+    width:20%;
+    float:right;
+    height:100%;
+    padding:20px;
+    color: aliceblue;
+}
+
+#profile-image{
+    width:100px;
+    border-radius: 30%;
+    border: 7px solid rgb(91, 146, 91); 
+}
+
+#profile{
+    text-align: center;
+}
+
+.side-articles ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+#profile-details{
+    text-align: center;
+}
+
+.side-articles,.main-articles{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.side-articles{
+    background-color: rgb(38, 69, 38);
+    text-align: center;
+    color: aliceblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.side-images{
+    height: 125px;
+    width: 225px;
+    border-radius: 10px;
+}
+
+.main-articles{
+    background-color: rgb(38, 69, 38);
+}
+form{
+    margin-top: 20px;
+}
+textarea,input{
+    background-color:aliceblue;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+
+
